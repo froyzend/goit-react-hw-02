@@ -3,6 +3,7 @@ import Descriptions from "./components/Descriptions/Descriptions";
 import Feedback from "./components/Feedback/Feedback";
 import Options from "./components/Options/Options";
 import Notification from "./components/Notification/Notification";
+import ToDoList from "./components/ToDoList/ToDoList";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             positiveFeedback={positiveFeedback}
           />
         )}
+        <ToDoList />
       </div>
     </>
   );
